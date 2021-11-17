@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class ParkingFee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int hours;
+		double fee;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter parking hours : ");
+		hours = scan.nextInt();
+		
+		if(hours<=2)
+		{
+			fee=2;		
+			System.out.println("Total Parking Fee : RM" +fee);
+		}
+		else if(hours<=5)
+		{	fee=2+(2.5*(hours-2));
+			System.out.println("Total Parking Fee : RM" +fee);
+		}
+		else
+		{
+			fee=2+(2.5*3)+(1.5*(hours-3-2));
+			System.out.println("Total Parking Fee : RM" +fee);
+		}
+	}
+}
