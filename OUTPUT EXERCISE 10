@@ -1,0 +1,41 @@
+		Welcome to ABaTaa Delivery 	
+State code 		 State Name 		 Shipping Charge
+    1     		Penang     		  8.00     
+    2     		Kedah      		 10.50
+    3     		Perlis     		 12.50
+    4     		Perak      		 13.50
+Enter the state code : 
+2
+Enter the Parcel's weight in KG : 
+2.5
+State code : 2
+Weight (kg) : 2.5
+Shipping charge per KG : 10.50
+Total price (RM) : 26.25
+
+		Welcome to ABaTaa Delivery 	
+State code 		 State Name 		 Shipping Charge
+    1     		Penang     		  8.00     
+    2     		Kedah      		 10.50
+    3     		Perlis     		 12.50
+    4     		Perak      		 13.50
+Enter the state code : 
+1
+Enter the Parcel's weight in KG : 
+2.5
+State code : 
+Weight (kg) : 
+Shipping charge per KG : 8.00
+Total price (RM) : 20.0
+
+		Welcome to ABaTaa Delivery 	
+State code 		 State Name 		 Shipping Charge
+    1     		Penang     		  8.00     
+    2     		Kedah      		 10.50
+    3     		Perlis     		 12.50
+    4     		Perak      		 13.50
+Enter the state code : 
+7
+Enter the Parcel's weight in KG : 
+0
+Invalid code
