@@ -1,0 +1,53 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class HealthStatus {
+
+	public static void main(String[] args) {
+		char gender = 'M';
+		char gender2 = 'F';
+		int waistF;
+		int waistM;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter your gender : ");
+		gender = scan.next().charAt(0);
+		System.out.println("Enter your waist measurement in inches : ");
+		waistM = scan.nextInt();
+		
+		if(waistM<37)
+		{
+			System.out.println("Low Risk");
+		}
+		else if(waistM<40)
+		{
+			System.out.println("Moderate Risk");
+		}
+		else if(waistM>=40)
+		{
+			System.out.println("High Risk");
+		}
+		
+		System.out.println("Enter your gender : ");
+		gender2 = scan.next().charAt(0);
+		System.out.println("Enter your waist measurement in inches : ");
+		waistF = scan.nextInt();
+		
+		
+		if(waistF<31.5)
+		{
+			System.out.println("Low Risk");
+		}
+		else if(waistF<35)
+		{
+			System.out.println("Moderate Risk");
+		}
+		else if(waistF>=35)
+		{
+			System.out.println("High Risk");
+		}
+	}
+
+}
