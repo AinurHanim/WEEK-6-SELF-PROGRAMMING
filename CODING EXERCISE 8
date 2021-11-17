@@ -1,0 +1,33 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class CGPAclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double cgpa;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter your CGPA : ");
+		cgpa = scan.nextDouble();
+		
+		if((cgpa>=3.50) && (cgpa<=4.00))
+		{
+			System.out.println("First Class With Honours");
+		}
+		else if((cgpa>=3.00) && (cgpa<=3.49))
+		{
+			System.out.println("Upper Second Class With Honours");
+		}
+		else if((cgpa>=2.20) && (cgpa<=2.99))
+		{
+			System.out.println("Lower Second Class With Honours");
+		}
+		else if((cgpa>=2.00) && (cgpa<=2.19))
+		    System.out.println("Third Class With Honours");
+
+	}
+
+}
