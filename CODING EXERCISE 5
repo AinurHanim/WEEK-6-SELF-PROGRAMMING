@@ -1,0 +1,40 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//kira BMI
+		double weight;
+		double height;
+		double BMI;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter your weight in kg : ");
+		weight = scan.nextDouble();
+		
+		System.out.println("Enter your height in meter : ");
+		height = scan.nextDouble();
+				
+		BMI=weight/(height*height);
+		System.out.printf("BMI is %.2f" , BMI);
+		
+		if(BMI<18.5)
+			System.out.printf("Underweight %.2f",  BMI);
+		
+		else if (BMI<=25)		
+			System.out.printf("Normal %.2f", BMI);
+		
+		else if(BMI<=30)		
+			System.out.printf("Overweight", BMI);
+		
+		else		
+			System.out.printf("Obese", BMI);
+		
+
+	}
+
+}
