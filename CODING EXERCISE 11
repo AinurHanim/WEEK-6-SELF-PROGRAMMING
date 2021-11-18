@@ -1,0 +1,33 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class IfElse3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char grade ='A';
+		char grade2 = 'B';
+		char grade3 = 'C';
+		int percentage;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter your percentage of marks : ");
+		percentage = scan.nextInt();
+		
+		if(percentage>=90)
+		{
+			System.out.println("A");
+		}
+		else if(percentage<=75)
+		{
+			System.out.println("B");
+		}
+		else if(percentage<=65)
+			System.out.println("C");
+		
+
+	}
+
+}
