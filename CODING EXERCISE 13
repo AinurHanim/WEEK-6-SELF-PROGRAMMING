@@ -1,0 +1,31 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class SwitchStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter a number : ");
+		num = scan.nextInt();
+		
+		switch (num)
+		{
+		case 10 : 
+			System.out.println("Number is 10");
+			break;
+		case 20 :
+			System.out.println("Number is 20");
+			break;
+		case 30 :
+			System.out.println("Number is 30");
+			break;
+		default :
+			System.out.println("Invalid Number");
+		}
+
+	}
