@@ -1,0 +1,61 @@
+package SelfProgramming;
+
+import java.util.Scanner;
+
+public class SwitchStatement2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		///*
+		 //Write a program which calculates marks on basis of given grades in java using switch statement
+		 //if Grade A then  marks >=90
+		 //if Grade B then marks >=80 and less than 90
+		 // if Grade C then marks >=70 and less than 80
+		 //* if Grade D then marks >=60 and less than 70
+		 //* if Grade E then marks >=50 and less than 60
+		 //* if Grade F then marks <=40
+		 //* if any other grade is passed then print invalid grade
+		
+		int marks;
+		char grade1 = 'A';
+		char grade2 = 'B';
+		char grade3 = 'C';
+		char grade4 = 'D';
+		char grade5 = 'E';
+		char grade6 = 'F';
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter you marks : ");
+		marks = scan.nextInt();
+		
+		if (marks>=90)
+		{
+			System.out.println("Grade A");
+		}
+		else if ((marks>=80) && (marks<90))
+		{
+			System.out.println("Grade B");
+		}
+		else if ((marks>=70) && (marks<80))
+		{
+			System.out.println("Grade C");
+		}
+		else if((marks>=60) && (marks<70))
+		{
+			System.out.println("Grade D");
+		}
+		else if((marks>=50) && (marks<60))
+		{
+			System.out.println("Grade E");
+		}
+		else if(marks<=40)
+		{
+			System.out.println("Grade F");
+		}
+		else
+			System.out.println("Invalid Grade");
+
+	}
+
+}
